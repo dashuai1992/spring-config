@@ -1,8 +1,5 @@
 server:
   port: 7200
-spring:
-  application:
-    name: client7200
 
 eureka:
   client:
