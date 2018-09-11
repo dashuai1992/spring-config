@@ -1,6 +1,13 @@
 server:
   port: 7000
   
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: configserver7300
+  
 eureka:
   instance:
     hostname: localhost

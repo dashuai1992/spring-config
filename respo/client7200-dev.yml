@@ -1,5 +1,12 @@
 server:
   port: 7200
+  
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: configserver7300
 
 eureka:
   client:
