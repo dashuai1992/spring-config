@@ -6,7 +6,6 @@ spring:
     config:
       discovery:
         enabled: true
-        serviceId: configserver7300
   
 eureka:
   instance:
