@@ -1,0 +1,21 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: server7100
+    api-b:
+      path: /api-b/**
+      serviceId: server7100
+    api-c:
+      path: /api-c/**
+      serviceId: client7200

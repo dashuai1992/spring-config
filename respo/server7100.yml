@@ -1,0 +1,10 @@
+server:
+  port: 7100
+spring:
+  application:
+    name: server7100
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/
