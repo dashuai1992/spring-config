@@ -3,7 +3,7 @@ zuul:
     api-a:
       path: /api-a/**
       serviceId: server7100
-    api-b:
+    api-d:
       path: /api-b/**
       serviceId: server7100
     api-c:
